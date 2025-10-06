@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>3 ways</h1>
+    <pre>
+        1. Function Declaration
+        2. Function Expression
+        3. Arrow Function
+    </pre>
+    <script>
+        function add(a, b) {
+            console.log("The sum is: ", a + b);
+        }
+        add(10, 20);
+        const mul = function (a, b) {
+            return a * b;
+        }
+        let res = mul(20, 30);
+        console.log("The multiplication is: ", res);
+        const div = (a, b) => {
+            console.log("div is: ", a / b);
+        }
+        div(20, 2);
+        function sqaure(a){
+            console.log("The Square is:",a*a)
+        }
+        sqaure(10);
+    </script>
+</body>
+</html>
